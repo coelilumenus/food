@@ -1,7 +1,6 @@
 import {getResource} from '../services/services';
 
 function cards() {
-    /* cards */
     class MenuItem {
         constructor(src, alt, subtitle, descr, price, ...classes) {
             this.src = src;
@@ -53,4 +52,4 @@ function cards() {
         });
 }
 
-export default cards;
+export default cards; 

@@ -1,5 +1,4 @@
 function tabs(tabsSelector, tabsContentSelector, tabsParentSelector, activeClass) {
-    /* tabs */
     const tabsContent = document.querySelectorAll(tabsContentSelector),
         tabsParent = document.querySelector(tabsParentSelector),
         tabs = document.querySelectorAll(tabsSelector);

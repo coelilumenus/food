@@ -1,5 +1,4 @@
 function slider({slide, nextArrow, prevArrow, totalCounter, currentCounter, wrapper, field}) {
-    /* slider */
     const slides = document.querySelectorAll(slide),
         currentSlide = document.querySelector(currentCounter),
         totalSlide = document.querySelector(totalCounter),

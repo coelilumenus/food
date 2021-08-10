@@ -1,3 +1,5 @@
+require('es6-promise').polyfill();
+
 import tabs from './modules/tabs';
 import modal from './modules/modal';
 import forms from './modules/forms';
@@ -9,7 +11,7 @@ import {openModal} from './modules/modal';
 
 window.addEventListener('DOMContentLoaded', () => {
     const modalTimerID = setTimeout(() => openModal('.modal', modalTimerID), 30000);
-    
+
     timer('.timer', '2021-10-20');
     calc();
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');

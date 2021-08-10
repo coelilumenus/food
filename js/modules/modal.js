@@ -19,7 +19,6 @@ function closeModal(modalSelector) {
 }
 
 function modal(triggerSelector, modalSelector, modalTimerID) {
-    /* modal */
     const modalTrigger = document.querySelectorAll(triggerSelector),
         modal = document.querySelector(modalSelector);
 

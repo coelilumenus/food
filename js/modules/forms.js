@@ -2,7 +2,6 @@ import {closeModal, openModal} from './modal';
 import {postData} from '../services/services';
 
 function forms(formSelector, modalTimerID) {
-    /* forms */
     const forms = document.querySelectorAll(formSelector);
 
     const message = {
